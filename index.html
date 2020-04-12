@@ -2,6 +2,17 @@
 <html>
 
 <head>
+  <!-- 구글 분석기 -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-163491955-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-163491955-1');
+  </script>
+  <!-- 구글분석기 -->
+
   <title>이노에보의 모든것</title>
   <meta charset="UTF-8">
 </head>
@@ -19,7 +30,23 @@
 </p>
 
 
-  <img src="img_coding.jpg" width="100%">
+  <img src="img_coding.jpg" width="560" height="315">
+
+
+  <!-- 댓글기능 -->
+  <div id="disqus_thread"></div>
+  <script>
+  (function() { // DON'T EDIT BELOW THIS LINE
+  var d = document, s = d.createElement('script');
+  s.src = 'https://innoevo-ex.disqus.com/embed.js';
+  s.setAttribute('data-timestamp', +new Date());
+  (d.head || d.body).appendChild(s);
+  })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  <!-- 댓글기능 -->
+
+
 </body>
 
 </html>
